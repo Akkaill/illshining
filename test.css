@@ -1,0 +1,40 @@
+:root{
+    --bodycolor:rgb(151, 218, 198);
+    --boxcolor:rgba(0, 0, 0, 0.267);
+    --btncolor:rgb(255, 80, 80);
+
+
+
+}
+body{
+    background-color: var(--bodycolor);
+   
+
+}
+
+.container{
+    margin-left: 20px ;
+    margin-right: 20px;
+    
+ 
+}
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.nav{
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+    background: var(--boxcolor);
+    height: 60px;
+   
+
+}
+a{
+    text-decoration: none;
+}
+ul{
+    list-style: none;
+}
+
